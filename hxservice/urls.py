@@ -24,5 +24,6 @@ urlpatterns = [
     path('users/', include('users.urls')),
     path('api-auth/', include('rest_framework.urls'), name='rest_framework'),
     path('docs/', include_docs_urls(title='海星后台API接口文档', description='海星后台API接口文档')),
-    path('goods/',include('goods.urls'))
+    path('goods/',include('goods.urls')),
+    path('orders/', include('order.urls'))
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

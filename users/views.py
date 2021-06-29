@@ -13,6 +13,7 @@ from django.core.cache import cache
 from django.http import HttpResponse
 from rest_framework import mixins, status
 from rest_framework.response import Response
+from users.filters import UserInfoFilter
 
 # Create your views here.
 
@@ -74,4 +75,4 @@ class UserViewset(ModelViewSet):
     permission_classes = [IsAuthenticated]
     queryset = User.objects.all()
     serializer_class = UserSer
-    
+    filterset_class = UserInfoFilter
