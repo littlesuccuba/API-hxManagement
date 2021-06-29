@@ -4,3 +4,4 @@
 + DjangoRESTFramework
 + DjangoRESTFramework-jwt
 + redis
++ django-filters
