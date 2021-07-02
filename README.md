@@ -8,7 +8,7 @@
 
 ### 安装环境依赖
 ```
-  pip install requirements.txt -r
+  pip install -r requirements.txt
 ```
 ### 运行项目
 + 运行开发者模式
