@@ -22,7 +22,7 @@
 #### 接口文档地址
 
 + 地址就不方便放出来了，放张图代替效果吧：
-+ ![image](https://user-images.githubusercontent.com/73584383/124251306-5b484500-db58-11eb-93b4-1b98cef0b63d.png)
+![image](https://user-images.githubusercontent.com/73584383/124251306-5b484500-db58-11eb-93b4-1b98cef0b63d.png)
 
 
 ### 管理面板
